@@ -286,3 +286,59 @@ if(alien_color2 === 'green') {
     console.log("You just earned 10 points");
 }
 
+/*********************************************************************************/
+// 27. Alien Colors #3: Turn your if-else chain from Exercise 5-4 into an if-else chain.
+
+if(alien_color1 === 'green') {
+    console.log("You just earned 5 points for shooting an alien!");
+}   else if(alien_color1 === 'yellow') {
+    console.log("You just earned 10 points for shooting an alien!");
+}    else if(alien_color1 === 'red') {
+    console.log("You just earned 15 points for shooting an alien!");
+}
+
+/*********************************************************************************/
+// 28. Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+
+const personAge : number = 5;
+if(personAge < 2){
+    console.log("You are a baby!");
+}
+else if(personAge > 2 && personAge < 4){
+    console.log("You are a toddler!");
+}
+else if(personAge > 4 && personAge < 13){
+    console.log("You are a kid!");
+}
+else if(personAge > 13 && personAge < 20){
+    console.log("You are a teenager!");
+}
+else if(personAge > 20 && personAge < 65){
+    console.log("You are an adult!");
+}
+else if(personAge > 65){
+    console.log("You are an old!");
+}
+
+/*********************************************************************************/
+// 29. Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+
+const favorite_fruits : Array<string> = ["Mango", "Banana", "Orange"]
+if(favorite_fruits[0]==="Mango"){
+    console.log("You really like Mongo!");
+}
+if(favorite_fruits[1]==="Banana"){
+    console.log("You really like Banana!");
+}
+if(favorite_fruits[2]==="Orange"){
+    console.log("You really like Orange!");
+}
+
+/*********************************************************************************/
+// 30. Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
+
+const admins : Array<string> = ['admin', "fahad", "aftab", "noor", "jabbar", "gul"];
+admins.forEach(admin => admin === 'admin' ? console.log("Hello",admin.charAt(0).toUpperCase()+admin.slice(1).toLowerCase()+", thank you for logging in again.") : console.log("Hello",admin.charAt(0).toUpperCase()+admin.slice(1).toLowerCase()+", would you like to see a status report?"));
+
+/*********************************************************************************/
+// 31. No Users: Add an if test to Exercise 28 to make sure the list of users is not empty.
