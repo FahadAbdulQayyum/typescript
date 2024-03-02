@@ -4,7 +4,7 @@ const newGuests : Array<String> = ["Asif", "Gul Mahmad", "Sarwar", "Razaq"];
 
 newGuests.forEach(guest => console.log("Dear",guest+"! You are invited for Dinner with us too."));
 
-const allGuests : Array<String> = [...guestsToInviteForDinner, ...guestsWhoUnableToMakeFood];
+const allGuests1 : Array<String> = [...guestsToInviteForDinner, ...guestsWhoUnableToMakeFood];
 
 allGuests.forEach(respectedGuest => console.log("Dear",respectedGuest+"! I got a bigger dinner table! So you are invited for Dinner with us today."));
 

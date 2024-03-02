@@ -1,5 +1,7 @@
 // 17. Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
+const allGuests : Array<String> = ["Asif", "Gul Mahmad", "Sarwar", "Razaq", "Abdullah", "Ismail"];
+
 const msg : string = "I can invite only two guests";
 
 while (allGuests.length !== 2) {
